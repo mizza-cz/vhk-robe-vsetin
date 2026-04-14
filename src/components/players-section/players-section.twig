@@ -1,0 +1,240 @@
+<section class="players-section tab-content" id="players-tabContent">
+  <div
+    class="tab-pane fade show active"
+    id="nav-block"
+    role="tabpanel"
+    aria-labelledby="nav-block-tab"
+  >
+    <h2 class="h4 mb-4 text-uppercase">BRANKÁŘI</h2>
+    <div class="row g-8 mb-8">
+      <div class="col-xl-4 col-md-6">
+        <a href="#" class="playersCard">
+          <img
+            class="playersCard__img"
+            src="images/content/playersCard.png"
+            loading="lazy"
+            alt="player"
+          />
+          <div class="playersCard__number">30</div>
+
+          <div class="playersCard__name">
+            <span>DAVID</span>
+            HONZÍK
+          </div>
+        </a>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <a href="#" class="playersCard">
+          <img
+            class="playersCard__img"
+            src="images/content/playersCard.png"
+            loading="lazy"
+            alt="player"
+          />
+          <div class="playersCard__number">31</div>
+
+          <div class="playersCard__name">
+            <span>Adam</span>
+            Pavlíček
+          </div>
+        </a>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <a href="#" class="playersCard">
+          <img
+            class="playersCard__img"
+            src="images/content/playersCard.png"
+            loading="lazy"
+            alt="player"
+          />
+          <div class="playersCard__number">95</div>
+
+          <div class="playersCard__name">
+            <span>MIROSLAV</span>
+            SVOBODA
+          </div>
+        </a>
+      </div>
+    </div>
+    <h2 class="h4 mb-4 text-uppercase">OBRÁNCI</h2>
+    <div class="row g-8 mb-8">
+      {% for i in 1..2 %}
+      <div class="col-xl-4 col-md-6">
+        <a href="#" class="playersCard">
+          <img
+            class="playersCard__img"
+            src="images/content/playersCard.png"
+            loading="lazy"
+            alt="player"
+          />
+          <div class="playersCard__number">26</div>
+
+          <div class="playersCard__name">
+            <span>ONDŘEJ</span>
+            SLOVÁČEK
+          </div>
+        </a>
+      </div>
+
+      <div class="col-xl-4 col-md-6">
+        <a href="#" class="playersCard">
+          <img
+            class="playersCard__img"
+            src="images/content/playersCard.png"
+            loading="lazy"
+            alt="player"
+          />
+          <div class="playersCard__number">11</div>
+
+          <div class="playersCard__name">
+            <span>Matěj</span>
+            Stříteský
+          </div>
+        </a>
+      </div>
+      <div class="col-xl-4 col-md-6">
+        <a href="#" class="playersCard">
+          <img
+            class="playersCard__img"
+            src="images/content/playersCard.png"
+            loading="lazy"
+            alt="player"
+          />
+          <div class="playersCard__number">44</div>
+
+          <div class="playersCard__name">
+            <span>Patrik</span>
+            Marcel
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div
+    class="tab-pane fade"
+    id="nav-list"
+    role="tabpanel"
+    aria-labelledby="nav-list-tab"
+  >
+    <div class="table-responsive">
+      <table class="players-table">
+        <thead>
+          <tr>
+            <th class="text-start pe-4" style="width: 54px">#</th>
+            <th class="text-start ps-4" style="width: 100%">HRÁČ</th>
+            <th class="text-start">NAROZEN</th>
+            <th class="text-start">VĚK</th>
+            <th class="text-start">VÝŠKA</th>
+            <th class="text-start">VÁHA</th>
+            <th class="text-start">HŮL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="pe-4">26</td>
+            <td class="ps-4">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 fw-bold text-primary hover-underline"
+              >
+                Patrik Marcel
+                <img src="images/ico/cz.svg" loading="lazy" alt="cz" />
+              </a>
+            </td>
+            <td>10. 4. 1994</td>
+            <td>28 let</td>
+            <td>184 cm</td>
+            <td>87 kg</td>
+            <td>levá</td>
+          </tr>
+          <tr>
+            <td class="pe-4">26</td>
+            <td class="ps-4">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 fw-bold text-primary hover-underline"
+              >
+                Adam Pavlíček
+                <img src="images/ico/cz.svg" loading="lazy" alt="cz" />
+              </a>
+            </td>
+            <td>10. 4. 1994</td>
+            <td>28 let</td>
+            <td>184 cm</td>
+            <td>87 kg</td>
+            <td>levá</td>
+          </tr>
+          <tr>
+            <td class="pe-4">26</td>
+            <td class="ps-4">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 fw-bold text-primary hover-underline"
+              >
+                Ondřej Slováček
+                <img src="images/ico/cz.svg" loading="lazy" alt="cz" />
+              </a>
+            </td>
+            <td>10. 4. 1994</td>
+            <td>28 let</td>
+            <td>184 cm</td>
+            <td>87 kg</td>
+            <td>levá</td>
+          </tr>
+          <tr>
+            <td class="pe-4">26</td>
+            <td class="ps-4">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 fw-bold text-primary hover-underline"
+              >
+                Ondřej Slováček
+                <img src="images/ico/cz.svg" loading="lazy" alt="cz" />
+              </a>
+            </td>
+            <td>10. 4. 1994</td>
+            <td>28 let</td>
+            <td>184 cm</td>
+            <td>87 kg</td>
+            <td>levá</td>
+          </tr>
+          <tr>
+            <td class="pe-4">26</td>
+            <td class="ps-4">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 fw-bold text-primary hover-underline"
+              >
+                Matěj Stříteský
+                <img src="images/ico/cz.svg" loading="lazy" alt="cz" />
+              </a>
+            </td>
+            <td>10. 4. 1994</td>
+            <td>28 let</td>
+            <td>184 cm</td>
+            <td>87 kg</td>
+            <td>levá</td>
+          </tr>
+          <tr>
+            <td class="pe-4">26</td>
+            <td class="ps-4">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-2 fw-bold text-primary hover-underline"
+              >
+                Ondřej Slováček
+                <img src="images/ico/cz.svg" loading="lazy" alt="cz" />
+              </a>
+            </td>
+            <td>10. 4. 1994</td>
+            <td>28 let</td>
+            <td>184 cm</td>
+            <td>87 kg</td>
+            <td>levá</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

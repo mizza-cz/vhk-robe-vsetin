@@ -1,0 +1,21 @@
+.button-primary {
+  background: var(--color-secondary);
+  font-family: var(--font-title);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-primary);
+  font-weight: 600;
+  box-shadow: 0 1px 0 0 inset rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 16px;
+  &:hover {
+    filter: brightness(0.92);
+  }
+}

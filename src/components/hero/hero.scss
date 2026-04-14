@@ -1,0 +1,133 @@
+.hero {
+  display: flex;
+  gap: 4px;
+  overflow: hidden;
+  margin-bottom: 32px;
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+    width: calc(100% + 32px);
+    margin-left: -16px;
+  }
+  &:hover .hero__item {
+    flex: 1;
+  }
+
+  &:hover .hero__item:hover {
+    flex: 2.93;
+  }
+  @include media-breakpoint-up(xxl) {
+    height: 524px;
+  }
+  @include media-breakpoint-up(xl) {
+    height: 480px;
+  }
+  @include media-breakpoint-up(md) {
+    height: 440px;
+  }
+}
+
+.hero__item {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  background-size: cover;
+  background-position: center;
+  transition: flex 0.45s ease;
+  cursor: pointer;
+}
+.hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero__link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      45deg,
+      rgba(8, 53, 44, 1) 0%,
+      rgba(8, 53, 44, 0.3) 100%
+    );
+  }
+}
+
+.hero__content {
+  position: absolute;
+  left: 32px;
+  right: 32px;
+  bottom: 32px;
+  z-index: 2;
+  max-width: 480px;
+}
+
+.hero__state {
+  transition: opacity 0.22s ease, visibility 0.22s ease, transform 0.28s ease;
+}
+
+/* collapsed */
+.hero__state--collapsed {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* expanded */
+.hero__state--expanded {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+}
+
+.hero__item:hover .hero__state--collapsed {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+}
+
+.hero__item:hover .hero__state--expanded {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition-delay: 0.08s;
+}
+
+.hero:not(:hover) .hero__item:first-child {
+  flex: 2.93;
+}
+
+.hero:not(:hover) .hero__item:first-child .hero__state--collapsed {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+}
+
+.hero:not(:hover) .hero__item:first-child .hero__state--expanded {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.hero__state--expanded {
+  @include media-breakpoint-down(md) {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+.hero__state--collapsed {
+  @include media-breakpoint-down(md) {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4px);
+  }
+}

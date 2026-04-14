@@ -1,0 +1,38 @@
+/*! purgecss start ignore */
+.container {
+  max-width: 109rem !important;
+  padding: 0 16px !important;
+  margin: 0 auto;
+}
+.font-secondary {
+  font-family: var(--font-secondary) !important;
+}
+.text-white {
+  color: var(--color-white) !important;
+}
+.text-primary {
+  color: var(--color-primary) !important;
+}
+.text-slate-500 {
+  color: var(--color-slate-500);
+}
+.text-accent {
+  color: var(--color-accent) !important;
+}
+
+.bg-slate-50 {
+  background: var(--color-slate-50);
+}
+
+.hover-underline {
+  transition: all 0.3s;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  &:hover {
+    text-decoration-color: inherit;
+  }
+}
+.white-space-normal{
+  white-space: normal;
+}
+/*! purgecss end ignore */

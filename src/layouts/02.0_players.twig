@@ -1,0 +1,52 @@
+{% extends "@components/base/base.twig" %} {% set title = "02.0_players" %} {%
+block main %}
+
+<div class="px-lg-8 px-4 pt-8 mb-lg-24 mb-16">
+  <h1 class="h1 text-uppercase mb-8">MAXA LIGA 2025/2026</h1>
+
+  <div class="filterMenu">
+    <form class="w-md-auto w-100" action="">
+      <div class="filterMenu__item">
+        <label for="filterDate" class="filterMenu__label"> SEZÓNA </label>
+        <select class="js-select" id="filterDate">
+          <option selected>seZÓNA 2025/26</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+        </select>
+      </div>
+    </form>
+
+    <nav class="nav filterMenu-tabs" id="nav-tab" role="tablist">
+      <button
+        class="filterMenu-tabs__btn active"
+        id="nav-block-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#nav-block"
+        type="button"
+        role="tab"
+        aria-controls="nav-block"
+        aria-selected="true"
+      >
+        {% include "@images/filter-block.svg" %} DLAŽDICE
+      </button>
+      <button
+        class="filterMenu-tabs__btn"
+        id="nav-list-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#nav-list"
+        type="button"
+        role="tab"
+        aria-controls="nav-list"
+        aria-selected="false"
+      >
+        {% include "@images/filter-list.svg" %} SEZNAM
+      </button>
+    </nav>
+  </div>
+
+  {% include "@components/players-section/players-section.twig" %}
+</div>
+
+{% endblock %}

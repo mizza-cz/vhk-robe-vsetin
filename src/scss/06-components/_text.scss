@@ -1,0 +1,62 @@
+.h1,
+.o-content h1 {
+  font-size: 40px;
+  line-height: 100%;
+  font-family: var(--font-title);
+  font-weight: 600;
+  @include media-breakpoint-down(lg) {
+    font-size: 32px;
+  }
+}
+
+.h2,
+.o-content h2 {
+  font-size: 32px;
+  line-height: 100%;
+  font-family: var(--font-title);
+  font-weight: 600;
+  @include media-breakpoint-down(lg) {
+    font-size: 26px;
+  }
+}
+.h3,
+.o-content h3 {
+  font-size: 24px;
+  line-height: 1.333;
+  font-family: var(--font-title);
+  font-weight: 600;
+  @include media-breakpoint-down(lg) {
+    font-size: 22px;
+  }
+}
+
+.h4,
+.o-content h4 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: var(--font-title);
+  font-weight: 600;
+}
+.h5,
+.o-content h5 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-title);
+  font-weight: 600;
+}
+
+.text-lg {
+  font-size: 18px;
+  line-height: 28px;
+}
+.text-md {
+  font-size: 16px;
+}
+.text-sm {
+  font-size: 14px;
+  line-height: 22px;
+}
+.text-xs {
+  font-size: 12px;
+  line-height: 16px;
+}

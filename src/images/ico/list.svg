@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icoFenomen">
+<g id="book-02-duotone-rounded">
+<path id="Path" opacity="0.4" d="M12.0155 2H13.0137C16.7785 2 18.6608 2 19.8304 3.17157C21 4.34315 21 6.22876 21 10V16.9286C17.8387 16.9524 10.7177 17 7.52315 17C5.00911 17 4.18507 18.0323 4.02916 18.8782V19.5C3.99373 19.3225 3.98698 19.1072 4.02916 18.8782V10C4.02916 6.22876 4.02916 4.34315 5.19873 3.17157C6.36829 2 8.25067 2 12.0155 2Z" fill="#FFCB00"/>
+<path id="Path_2" d="M20.9981 16.9286V10C20.9981 6.22876 20.9981 4.34315 19.8286 3.17157C18.6591 2 16.7766 2 13.0119 2H12.0136C8.24884 2 6.36647 2 5.1969 3.17157C4.02734 4.34315 4.02734 6.22876 4.02734 10V19.5" stroke="#FFCB00" stroke-linecap="round"/>
+<path id="Path_3" d="M20.9981 17H6.52305C5.14471 17 4.02734 18.1193 4.02734 19.5C4.02734 20.8807 5.14471 22 6.52305 22H20.9981" stroke="#FFCB00" stroke-linecap="round"/>
+<path id="Path_4" d="M20.9981 22C19.6198 22 18.5024 20.8807 18.5024 19.5C18.5024 18.1193 19.6198 17 20.9981 17" stroke="#FFCB00" stroke-linecap="round"/>
+<path id="Path_5" d="M15.5075 7H9.51782" stroke="#FFCB00" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_6" d="M12.5127 11H9.51782" stroke="#FFCB00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>
