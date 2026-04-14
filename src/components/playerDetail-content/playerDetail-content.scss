@@ -1,0 +1,36 @@
+.playerDetail-stats {
+  display: flex;
+  padding: 16px 24px;
+  margin-bottom: 32px;
+
+  background: var(--color-slate-50);
+  border: 1px solid var(--color-slate-200);
+  gap: 32px;
+  justify-content: center;
+  text-align: center;
+  @include media-breakpoint-down(lg) {
+    gap: 16px;
+  }
+  @include media-breakpoint-down(md) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  li {
+    max-width: 80px;
+    width: 100%;
+    @include media-breakpoint-down(lg) {
+      max-width: none;
+    }
+  }
+  &__num {
+    font-size: 48px;
+    font-family: var(--font-title);
+    margin-top: 8px;
+    font-weight: 600;
+    line-height: 1;
+    @include media-breakpoint-down(lg) {
+      font-size: 40px;
+    }
+  }
+}
