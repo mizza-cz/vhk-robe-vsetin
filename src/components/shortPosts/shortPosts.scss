@@ -1,10 +1,22 @@
 .shortPosts {
-  padding: 0 32px;
   margin-bottom: 32px;
-
+  overflow: hidden;
   &-item {
     padding: 32px;
     background: var(--color-slate-50);
     border: 1px solid var(--color-slate-200);
   }
+}
+
+.shortPosts .swiper-wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: stretch;
+}
+
+.shortPosts .swiper-slide {
+  height: auto;
+  min-width: 0;
+  box-sizing: border-box;
 }

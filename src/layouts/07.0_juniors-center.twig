@@ -1,0 +1,138 @@
+{% extends "@components/base/base.twig" %} {% set title = "07.0_juniors-center"
+%} {% block main %}
+
+<div class="px-lg-8 px-4 pt-8 mb-lg-24 mb-16">
+  <h1 class="h1 text-uppercase mb-8">MLÁDEŽNICKÉ TÝMY</h1>
+
+  <div class="filterMenu">
+    <form class="w-md-auto w-100" action="">
+      <div class="filterMenu__item">
+        <label for="filterDate" class="filterMenu__label"> SEZÓNA </label>
+        <select class="js-select" id="filterDate">
+          <option selected>seZÓNA 2025/26</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+  {% include "@components/juniorsCenter/juniorsCenter.twig" %} {% include
+  "@components/shortPosts/shortPosts.twig" %}
+  <h3 class="h3 text-uppercase mb-4">ČLÁNKY O MLÁDEŽI</h3>
+  <div class="row g-8">
+    <div class="col-sm-6 col-xl-4">
+      <a class="postCard" href="#">
+        <div class="postCard__img">
+          <img src="images/content/post-3.png" loading="lazy" alt="post" />
+        </div>
+        <div class="postCard__content">
+          <ul class="badge mb-4">
+            <li>22.03.2026</li>
+            <li>•</li>
+            <li>HELENA HEGEĎOVÁ</li>
+          </ul>
+          <h4 class="h4 text-uppercase text-primary">
+            DOROSTENCI PORAZILI CHRUDIM, POMOHLY I PŘESILOVKY
+          </h4>
+        </div>
+      </a>
+    </div>
+    <div class="col-xl-4 col-sm-6">
+      <a class="postCard" href="#">
+        <div class="postCard__img">
+          <img src="images/content/post-2.png" loading="lazy" alt="post" />
+        </div>
+        <div class="postCard__content">
+          <ul class="badge mb-4">
+            <li>10.01.2026</li>
+            <li>•</li>
+            <li>HELENA HEGEĎOVÁ</li>
+          </ul>
+          <h4 class="h4 text-uppercase text-primary">
+            VÝSLEDKOVÝ SERVIS MLÁDEŽE: PÁŤÁCI I SEDMÁCI SLAVÍ, 6. TŘÍDĚ SE PROTI
+            LÍDROVI NEZADAŘILO
+          </h4>
+        </div>
+      </a>
+    </div>
+    <div class="col-xl-4 col-sm-6">
+      <a class="postCard" href="#">
+        <div class="postCard__img">
+          <img src="images/content/post-4.png" loading="lazy" alt="post" />
+        </div>
+        <div class="postCard__content">
+          <ul class="badge mb-4">
+            <li>22.01.2026</li>
+            <li>•</li>
+            <li>HELENA HEGEĎOVÁ</li>
+          </ul>
+          <h4 class="h4 text-uppercase text-primary">
+            9. TŘÍDA POTVRDILA ROLI FAVORITA PROTI ŠUMPERKU
+          </h4>
+        </div>
+      </a>
+    </div>
+    <div class="col-xl-4 col-sm-6">
+      <a class="postCard" href="#">
+        <div class="postCard__img">
+          <img src="images/content/post-4.png" loading="lazy" alt="post" />
+        </div>
+        <div class="postCard__content">
+          <ul class="badge mb-4">
+            <li>22.01.2026</li>
+            <li>•</li>
+            <li>HELENA HEGEĎOVÁ</li>
+          </ul>
+          <h4 class="h4 text-uppercase text-primary">
+            V SOBOTU ZNOVU NA SEVER, VALACHY ČEKÁ POSLEDNÍ PORUBA
+          </h4>
+        </div>
+      </a>
+    </div>
+    <div class="col-xl-4 col-sm-6">
+      <a class="postCard" href="#">
+        <div class="postCard__img">
+          <img src="images/content/post-2.png" loading="lazy" alt="post" />
+        </div>
+        <div class="postCard__content">
+          <ul class="badge mb-4">
+            <li>10.01.2026</li>
+            <li>•</li>
+            <li>HELENA HEGEĎOVÁ</li>
+          </ul>
+          <h4 class="h4 text-uppercase text-primary">
+            VÝSLEDKOVÝ SERVIS MLÁDEŽE: PÁŤÁCI I SEDMÁCI SLAVÍ, 6. TŘÍDĚ SE PROTI
+            LÍDROVI NEZADAŘILO
+          </h4>
+        </div>
+      </a>
+    </div>
+    <div class="col-xl-4 col-sm-6">
+      <a class="postCard" href="#">
+        <div class="postCard__img">
+          <img src="images/content/post-4.png" loading="lazy" alt="post" />
+        </div>
+        <div class="postCard__content">
+          <ul class="badge mb-4">
+            <li>22.01.2026</li>
+            <li>•</li>
+            <li>HELENA HEGEĎOVÁ</li>
+          </ul>
+          <h4 class="h4 text-uppercase text-primary">
+            9. TŘÍDA POTVRDILA ROLI FAVORITA PROTI ŠUMPERKU
+          </h4>
+        </div>
+      </a>
+    </div>
+  </div>
+  <a
+    href="#"
+    class="text-xs d-block text-end text-primary text-uppercase mt-8 font-secondary"
+  >
+    DALŠÍ ČLÁNKY
+  </a>
+</div>
+{% endblock %}
