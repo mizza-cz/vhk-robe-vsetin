@@ -1,0 +1,90 @@
+{% extends "@components/base/base.twig" %} {% set title = "09.0_archive" %} {%
+block main %}
+
+<div class="px-lg-8 px-4 pt-8 mb-lg-24 mb-16">
+  <h1 class="h1 text-uppercase mb-8">ARCHIV</h1>
+
+  <div class="filterMenu align-items-start gap-6">
+    <nav class="nav filterMenu__links" id="nav-tab" role="tablist">
+      <button
+        class="filterMenu__link active"
+        id="nav-posts-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#nav-posts"
+        type="button"
+        role="tab"
+        aria-controls="nav-posts"
+        aria-selected="true"
+      >
+        Články
+      </button>
+      <button
+        class="filterMenu__link"
+        id="nav-shorts-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#nav-shorts"
+        type="button"
+        role="tab"
+        aria-controls="nav-shorts"
+        aria-selected="false"
+      >
+        Bleskovky
+      </button>
+      <button
+        class="filterMenu__link"
+        id="nav-gallery-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#nav-gallery"
+        type="button"
+        role="tab"
+        aria-controls="nav-gallery"
+        aria-selected="false"
+      >
+        Fotogalerie
+      </button>
+    </nav>
+    <form
+      class="w-md-auto w-100 d-flex align-items-center gap-2 flex-wrap"
+      action=""
+    >
+      <div class="filterMenu__item">
+        <label for="filterDate" class="filterMenu__label"> MĚSÍC / ROK </label>
+        <select class="js-select" id="filterDate">
+          <option selected>VŠECHNY</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+        </select>
+      </div>
+      <div class="filterMenu__item">
+        <label for="filterCategories" class="filterMenu__label">
+          KATEGORIE
+        </label>
+        <select class="js-select" id="filterCategories">
+          <option selected>VŠECHNY</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+        </select>
+      </div>
+      <div class="filterMenu__item">
+        <label for="filterDate" class="filterMenu__label"> SEZÓNA </label>
+        <div class="filterMenu-search">
+          <input
+            class="filterMenu-search__input"
+            placeholder="HLEDAT NA WEBU"
+            type="text"
+          />
+          <button class="filterMenu-search__btn">
+            {% include "@images/search.svg" %}
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  {% include "@components/archive-section/archive-section.twig" %}
+</div>
+{% endblock %}

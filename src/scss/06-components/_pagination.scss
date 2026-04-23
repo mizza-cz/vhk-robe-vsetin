@@ -1,0 +1,48 @@
+/*! purgecss start ignore */
+.pagination {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+.page-link {
+  border: 1px solid var(--color-slate-200);
+  background: var(--color-slate-50);
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 100%;
+  transition: all 0.25s ease;
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary);
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    border-color: var(--color-primary);
+    text-decoration-color: transparent;
+    color: var(--color-primary);
+  }
+}
+.page-item.active .page-link {
+  box-shadow: 0 1px 0 0 inset rgba(255, 255, 255, 0.5);
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 700;
+  border: none;
+  text-decoration: none;
+}
+.page-prev,
+.page-next {
+  border: none !important;
+  background: transparent !important;
+  width: auto;
+  min-width: auto;
+}
+/*! purgecss end ignore */

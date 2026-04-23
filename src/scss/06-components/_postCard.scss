@@ -32,4 +32,11 @@
       transition: text-decoration-color 0.25s ease;
     }
   }
+  &__play {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+  }
 }

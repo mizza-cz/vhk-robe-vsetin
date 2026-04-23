@@ -3,10 +3,12 @@
   gap: 4px;
   overflow: hidden;
   margin-bottom: 32px;
-  @include media-breakpoint-down(md) {
-    flex-direction: column;
+  @include media-breakpoint-down(lg) {
     width: calc(100% + 32px);
     margin-left: -16px;
+  }
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
   }
   &:hover .hero__item {
     flex: 1;

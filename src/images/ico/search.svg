@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icoSearch</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Centrum-mládeže---desktop-Copy" transform="translate(-1680, -278)">
+            <g id="input" transform="translate(1472, 270)">
+                <g id="icoSearch" transform="translate(220, 20) rotate(-270) translate(-220, -20)translate(208, 8)">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <g id="search-01-stroke-rounded" transform="translate(4, 4)" stroke="color(display-p3 0.059 0.090 0.169)" stroke-linejoin="round">
+                        <line x1="12.4" y1="12.4" x2="16" y2="16" id="Path" stroke-linecap="round"></line>
+                        <path d="M14.4,7.2 C14.4,3.223552 11.17648,0 7.2,0 C3.223552,0 0,3.223552 0,7.2 C0,11.17648 3.223552,14.4 7.2,14.4 C11.17648,14.4 14.4,11.17648 14.4,7.2 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
