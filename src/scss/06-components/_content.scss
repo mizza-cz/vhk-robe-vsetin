@@ -17,10 +17,43 @@
     margin: 32px 0;
   }
   h2 {
-    margin-bottom: 24px;
+    margin-top: 32px;
+    color: var(--color-primary);
+    margin-bottom: 16px;
   }
+  h4,
   h3 {
     text-transform: uppercase;
     margin-bottom: 16px;
+    margin-top: 32px;
+  }
+  ul {
+    margin: 16px 0;
+    > li {
+      position: relative;
+      padding-left: 32px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 4px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &::before {
+        content: "";
+        background-color: var(--color-slate-900);
+        position: absolute;
+        left: 8px;
+        width: 4px;
+        height: 4px;
+        border-radius: 100%;
+      }
+    }
+  }
+  table td a {
+    color: var(--color-primary);
+  }
+  .table-responsive {
+    margin-bottom: 32px;
   }
 }

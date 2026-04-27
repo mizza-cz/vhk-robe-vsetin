@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icoDev</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Obecná---desktop" transform="translate(-480, -1604)">
+            <g id="cardTitle" transform="translate(464, 1588)">
+                <g id="icoDev" transform="translate(16, 16)">
+                    <rect id="Rectangle" fill="color(display-p3 0.973 0.980 0.988)" x="0" y="0" width="48" height="48"></rect>
+                    <g id="ice-hockey-stroke-rounded" transform="translate(4, 6)" stroke="color(display-p3 0.055 0.357 0.294)" stroke-linejoin="round" stroke-width="2">
+                        <path d="M25.2681994,27.0336 L40,0 M31.0949996,0 L20.7475992,19.573 C19.4781991,21.9742 18.6911991,22.298 16.069599,21.498 C12.7216388,20.4762 6.02829854,16.9372 2.6951184,18.4846 C-0.639001747,20.0324 -0.919781759,30.3562 2.07689837,32.4722 C5.43257851,34.8416 15.3734789,33.9874 19.5921991,33.0206" id="Shape" stroke-linecap="round"></path>
+                        <line x1="11.9999988" y1="20" x2="7.99999862" y2="34" id="Path"></line>
+                        <path d="M19.9999991,32 C19.9999991,28.6906 20.6905992,28 23.9999991,28 L31.9999991,28 C35.3093998,28 35.9999991,28.6906 35.9999991,32 C35.9999991,35.3094 35.3093998,36 31.9999991,36 L23.9999991,36 C20.6905992,36 19.9999991,35.3094 19.9999991,32 Z" id="Path" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
