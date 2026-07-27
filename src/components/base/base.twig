@@ -14,10 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Khand:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-
     <!--****** Styles  ******-->
     <link rel="preload" href="css/styles.css" as="style" />
     <link rel="stylesheet" media="screen, handheld" href="css/styles.css" />
@@ -46,7 +45,7 @@
       <main class="main" aria-label="Hlavní obsah">
         <div class="container">
           <div class="main__grid">
-              {% include "@components/menuNav/menuNav.twig" %}
+            {% include "@components/menuNav/menuNav.twig" %}
             <div class="main__content">{% block main %}{% endblock %}</div>
           </div>
         </div>
