@@ -1,0 +1,39 @@
+{% extends "@components/base/base.twig" %} {% set title = "12.0_table" %} {%
+block main %}
+
+<div class="px-lg-8 px-4 pt-8 mb-lg-24 mb-16">
+  <h1 class="h1 text-uppercase mb-8">Tabulka</h1>
+
+  <div class="filterMenu">
+    <form
+      class="d-flex align-itens-center flex-wrap gap-2 w-md-auto w-100"
+      action=""
+    >
+      <div class="filterMenu__item">
+        <label for="filterDate" class="filterMenu__label"> SEZÓNA </label>
+        <select class="js-select" id="filterDate">
+          <option selected>seZÓNA 2025/26</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+          <option>SEZÓNA 2024/25</option>
+        </select>
+      </div>
+      <div class="filterMenu__item">
+        <label for="filterCategory" class="filterMenu__label">
+          KATEGORIE
+        </label>
+        <select class="js-select" id="filterCategory">
+          <option selected>Celková</option>
+          <option>domácí</option>
+          <option>venkovní</option>
+          <option>Součet</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+  {% include "@components/table-section/table-section.twig" %}
+</div>
+
+{% endblock %}
